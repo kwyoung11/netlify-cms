@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.6.0-beta.1 (2020-05-03)
+
+
+### Bug Fixes
+
+* lint ([cfeefb7](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-select/commit/cfeefb78fdea13c8ab5f001346adff65a990ec57))
+* **a11y:** correct label "for" references to fields ([#1904](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-select/issues/1904)) ([955f94f](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-select/commit/955f94f72ba4d01473ba20f9e0bcf88e1e1467b9))
+* **widget-select:** allow optional field to use min/max ([#3175](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-select/issues/3175)) ([fc524e6](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-select/commit/fc524e6c0fc0174294b42cd90d9eb23e96d15d53))
+* **widget-select:** fix exactCount error message ([#3177](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-select/issues/3177)) ([46f7763](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-select/commit/46f7763ccd1445b758006770252cc911b12de15d))
+* export on netlify-cms and maps on esm ([#2244](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-select/issues/2244)) ([6ffd13b](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-select/commit/6ffd13b946ac337096ed3e4c1ef253904acf3e39))
+* update peer dep versions ([#2234](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-select/issues/2234)) ([7987091](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-select/commit/7987091196b644a0a70166183d480d62712af4f5))
+
+
+### Features
+
+* adds ability to specify alternate options for select widget ([d4ceed7](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-select/commit/d4ceed79bf2a5c42b521357d0e4dfed1193fce2f))
+* **select-widget:** add min/max validation ([#3171](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-select/issues/3171)) ([fd9e2c8](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-select/commit/fd9e2c89f23d73aa08dbfa4412c4c0bae318125b))
+* add ES module builds ([#2215](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-select/issues/2215)) ([d142b32](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-select/commit/d142b32345ea7c63e081a1c43086786fe737d566))
+* commit media with post ([#2851](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-select/issues/2851)) ([6515dee](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-select/commit/6515dee8715d8571ea19484a7dfab7cfd0cc40be))
+* provide usable UMD builds for all packages ([#2141](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-select/issues/2141)) ([82cc794](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-select/commit/82cc7941cc40d31ead6eab40d7a9d999471399a5))
+* upgrade to Emotion 10 ([#2166](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-select/issues/2166)) ([ccef446](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-select/commit/ccef446d72f96fa8d8db9bf2d0be5633eff79979))
+* **netlify-cms-widget-relation:** use react-select and add support for multiple entries ([#1936](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-select/issues/1936)) ([518f6fb](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-select/commit/518f6fb1c070cbfc513e8a3170bf57dc25dbd18d))
+* **netlify-cms-widget-select:** add support for multiple selection ([#1901](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-select/issues/1901)) ([88bf287](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-select/commit/88bf2872212779b4a23ea4e1a3e0213f70a8eaa9))
+
+
+
+
+
 # 2.6.0-beta.0 (2020-05-03)
 
 

@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.10.5](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-backend-git-gateway/compare/netlify-cms-backend-git-gateway@2.10.2...netlify-cms-backend-git-gateway@2.10.5) (2020-05-03)
+
+
+### Bug Fixes
+
+* **git-gateway:** wait for identity widget to initialize ([#3660](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-backend-git-gateway/issues/3660)) ([6c229c5](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-backend-git-gateway/commit/6c229c5149e3beff05bcfb42ca286d3e9170e54e))
+* **large-media:** match netlify.app as lfs host ([#3642](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-backend-git-gateway/issues/3642)) ([9b79623](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-backend-git-gateway/commit/9b79623bc8b8fe212fb2d15dec8a75328cde9c64))
+
+
+
+
+
 ## [2.10.4](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-backend-git-gateway/compare/netlify-cms-backend-git-gateway@2.10.2...netlify-cms-backend-git-gateway@2.10.4) (2020-05-03)
 
 

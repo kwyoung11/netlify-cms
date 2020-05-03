@@ -221,7 +221,6 @@ class EditorControl extends React.Component {
                 ${styleStrings.labelActive};
               `}
               controlComponent={widget.control}
-              entry={entry}
               collection={collection}
               config={config}
               field={field}

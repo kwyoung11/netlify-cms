@@ -1,7 +1,7 @@
 {
-  "name": "netlify-cms-core",
+  "name": "@kyoung18/netlify-cms-core",
   "description": "Netlify CMS core application, see netlify-cms package for the main distribution.",
-  "version": "2.24.2-beta.47+3c5bcba4",
+  "version": "2.24.2-beta.48+6c8aba70",
   "repository": "https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-core",
   "bugs": "https://github.com/netlify/netlify-cms/issues",
   "module": "dist/esm/index.js",
@@ -90,5 +90,5 @@
   "devDependencies": {
     "redux-mock-store": "^1.5.3"
   },
-  "gitHead": "3c5bcba475b4dbf293f2530ba7fc45542a8bead8"
+  "gitHead": "6c8aba70739ee8c2b70d051f8a26460a0ff08f41"
 }

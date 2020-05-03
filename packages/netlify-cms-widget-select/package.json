@@ -1,7 +1,7 @@
 {
-  "name": "netlify-cms-widget-select",
+  "name": "@kyoung18/netlify-cms-widget-select",
   "description": "Selectable values widget for Netlify CMS.",
-  "version": "2.5.2-beta.224+3c5bcba4",
+  "version": "2.5.2-beta.225+6c8aba70",
   "homepage": "https://www.netlifycms.org/docs/widgets/#select",
   "repository": "https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-select",
   "bugs": "https://github.com/netlify/netlify-cms/issues",
@@ -35,5 +35,5 @@
   "dependencies": {
     "react-select": "^2.4.2"
   },
-  "gitHead": "3c5bcba475b4dbf293f2530ba7fc45542a8bead8"
+  "gitHead": "6c8aba70739ee8c2b70d051f8a26460a0ff08f41"
 }

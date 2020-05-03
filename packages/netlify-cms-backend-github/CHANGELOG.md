@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.10.6](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-backend-github/compare/netlify-cms-backend-github@2.10.3...netlify-cms-backend-github@2.10.6) (2020-05-03)
+
+
+### Bug Fixes
+
+* **backend-github:** add fallback for diff errors/warnings ([#3558](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-backend-github/issues/3558)) ([1705c79](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-backend-github/commit/1705c79a9297d844d5421d685a7785e1e210e39e))
+
+
+
+
+
 ## [2.10.5](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-backend-github/compare/netlify-cms-backend-github@2.10.4...netlify-cms-backend-github@2.10.5) (2020-04-21)
 
 **Note:** Version bump only for package netlify-cms-backend-github

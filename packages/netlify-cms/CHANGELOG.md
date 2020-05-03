@@ -3,6 +3,43 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.11.0-beta.0 (2020-05-03)
+
+
+### Bug Fixes
+
+* export on netlify-cms and maps on esm ([#2244](https://github.com/netlify/netlify-cms/issues/2244)) ([6ffd13b](https://github.com/netlify/netlify-cms/commit/6ffd13b946ac337096ed3e4c1ef253904acf3e39))
+* fix netlify-cms exports ([d0dabc4](https://github.com/netlify/netlify-cms/commit/d0dabc4d35388adf7fefe38ad831f52da2caa7e5))
+* fix netlify-cms webpack plugins ([5af0586](https://github.com/netlify/netlify-cms/commit/5af05865e5173770262023a029cb565b954a654d))
+* fix umd builds ([#2214](https://github.com/netlify/netlify-cms/issues/2214)) ([e04f6be](https://github.com/netlify/netlify-cms/commit/e04f6bec1d24bd59c86ed095653f95d33dfc4297))
+* log accurate version by distribution ([#1531](https://github.com/netlify/netlify-cms/issues/1531)) ([95a76ad](https://github.com/netlify/netlify-cms/commit/95a76ad7904f78433e994703b8a9239d5308a426))
+* move code widget and locales to netlify-cms-app ([#3025](https://github.com/netlify/netlify-cms/issues/3025)) ([74ecc21](https://github.com/netlify/netlify-cms/commit/74ecc21879e984e0104e5bb81c30f661162f6758))
+* pass netlify-cms-core exports through netlify-cms ([#1530](https://github.com/netlify/netlify-cms/issues/1530)) ([f0af6e8](https://github.com/netlify/netlify-cms/commit/f0af6e8b4aa620323ac1686daa74587c8c085c48))
+* register bitbucket backend in netlify-cms ([#1537](https://github.com/netlify/netlify-cms/issues/1537)) ([99d4b2b](https://github.com/netlify/netlify-cms/commit/99d4b2b50c43f24da07d4bed3e8c783d7f4d8c02))
+* **build:** output aliased cms.js w/ deprecation ([#1526](https://github.com/netlify/netlify-cms/issues/1526)) ([34c8c2a](https://github.com/netlify/netlify-cms/commit/34c8c2ad704e4b3172faecb35dca1e544a58da65))
+
+
+### Features
+
+* add byo react package netlify-cms-app ([#2252](https://github.com/netlify/netlify-cms/issues/2252)) ([ff4ffd7](https://github.com/netlify/netlify-cms/commit/ff4ffd7a70db6251b0cf210ac7830df054a61866))
+* add cloudinary support ([#1932](https://github.com/netlify/netlify-cms/issues/1932)) ([1fc2f50](https://github.com/netlify/netlify-cms/commit/1fc2f50499e0311eac033dcfce321e1106c4713b))
+* add ES module builds ([#2215](https://github.com/netlify/netlify-cms/issues/2215)) ([d142b32](https://github.com/netlify/netlify-cms/commit/d142b32345ea7c63e081a1c43086786fe737d566))
+* add translation support ([#2870](https://github.com/netlify/netlify-cms/issues/2870)) ([096b067](https://github.com/netlify/netlify-cms/commit/096b067d4542c723630ded631fc9a4ba950732f3)), closes [#2877](https://github.com/netlify/netlify-cms/issues/2877)
+* Code Widget + Markdown Widget Internal Overhaul ([#2828](https://github.com/netlify/netlify-cms/issues/2828)) ([18c579d](https://github.com/netlify/netlify-cms/commit/18c579d0e9f0ff71ed8c52f5c66f2309259af054))
+* provide usable UMD builds for all packages ([#2141](https://github.com/netlify/netlify-cms/issues/2141)) ([82cc794](https://github.com/netlify/netlify-cms/commit/82cc7941cc40d31ead6eab40d7a9d999471399a5))
+* upgrade to Emotion 10 ([#2166](https://github.com/netlify/netlify-cms/issues/2166)) ([ccef446](https://github.com/netlify/netlify-cms/commit/ccef446d72f96fa8d8db9bf2d0be5633eff79979))
+* **media:** add external media library support, Uploadcare integration ([#1602](https://github.com/netlify/netlify-cms/issues/1602)) ([0596904](https://github.com/netlify/netlify-cms/commit/0596904e0b850d2ac9b15bd1a4055b392f36c819))
+* **netlify-cms-widget-map:** add map widget ([#2051](https://github.com/netlify/netlify-cms/issues/2051)) ([18f34d2](https://github.com/netlify/netlify-cms/commit/18f34d2acaea396a9fb444856d3fd324533791a5))
+
+
+### Reverts
+
+* Revert "chore(release): publish" ([a015d1d](https://github.com/netlify/netlify-cms/commit/a015d1d92a4b1c0130c44fcef1c9ecdb157a0f07))
+
+
+
+
+
 ## [2.10.47](https://github.com/netlify/netlify-cms/compare/netlify-cms@2.10.46...netlify-cms@2.10.47) (2020-04-21)
 
 **Note:** Version bump only for package netlify-cms

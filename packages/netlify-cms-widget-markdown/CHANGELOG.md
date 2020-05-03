@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.11.2](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-markdown/compare/netlify-cms-widget-markdown@2.11.0...netlify-cms-widget-markdown@2.11.2) (2020-05-03)
+
+
+### Bug Fixes
+
+* prevent escaping of footnotes and references ([#3646](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-markdown/issues/3646)) ([028ab53](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-markdown/commit/028ab535df3e840bdf75c083ca7fbb275e0c61b3))
+* **markdown widget:** adds keyboard shortcuts ([#3005](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-markdown/issues/3005)) ([#3582](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-markdown/issues/3582)) ([99071c1](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-markdown/commit/99071c14e4a03d9897b21f1a43a5104510521dda))
+
+
+
+
+
 ## [2.11.1](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-markdown/compare/netlify-cms-widget-markdown@2.11.0...netlify-cms-widget-markdown@2.11.1) (2020-04-16)
 
 

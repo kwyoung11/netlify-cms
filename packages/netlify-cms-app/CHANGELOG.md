@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.13.0-beta.0 (2020-05-03)
+
+
+### Bug Fixes
+
+* .d.ts definitions for core and app ([#2929](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-app/issues/2929)) ([7391061](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-app/commit/7391061b3b8b1971b994f497a6df29b7d5c3da74))
+* esm extensions ([eff4b28](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-app/commit/eff4b285265e4698e7e842abc11673810409dfbc))
+* move code widget and locales to netlify-cms-app ([#3025](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-app/issues/3025)) ([74ecc21](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-app/commit/74ecc21879e984e0104e5bb81c30f661162f6758))
+* **netlify-cms-app:** add missing dependencies([#2255](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-app/issues/2255)) ([cf03a37](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-app/commit/cf03a37a6b34cb38133765e80706b61dd3d98c9e))
+
+
+### Features
+
+* add byo react package netlify-cms-app ([#2252](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-app/issues/2252)) ([ff4ffd7](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-app/commit/ff4ffd7a70db6251b0cf210ac7830df054a61866))
+* add translation support ([#2870](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-app/issues/2870)) ([096b067](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-app/commit/096b067d4542c723630ded631fc9a4ba950732f3)), closes [#2877](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-app/issues/2877)
+* bundle assets with content ([#2958](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-app/issues/2958)) ([2b41d8a](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-app/commit/2b41d8a838a9c8a6b21cde2ddd16b9288334e298))
+* Code Widget + Markdown Widget Internal Overhaul ([#2828](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-app/issues/2828)) ([18c579d](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-app/commit/18c579d0e9f0ff71ed8c52f5c66f2309259af054))
+* expose CMS moment ([#3458](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-app/issues/3458)) ([cd324b0](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-app/commit/cd324b08f191925f271178a326d65a000167d130))
+
+
+### Reverts
+
+* Revert "chore(release): publish" ([a015d1d](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-app/commit/a015d1d92a4b1c0130c44fcef1c9ecdb157a0f07))
+
+
+
+
+
 ## [2.12.11](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-app/compare/netlify-cms-app@2.12.10...netlify-cms-app@2.12.11) (2020-04-21)
 
 **Note:** Version bump only for package netlify-cms-app

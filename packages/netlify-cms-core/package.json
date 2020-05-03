@@ -1,11 +1,14 @@
 {
   "name": "netlify-cms-core",
   "description": "Netlify CMS core application, see netlify-cms package for the main distribution.",
-  "version": "2.25.0",
+  "version": "2.24.2-beta.46+d69aaace",
   "repository": "https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-core",
   "bugs": "https://github.com/netlify/netlify-cms/issues",
   "module": "dist/esm/index.js",
   "main": "dist/netlify-cms-core.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "src/",
     "dist/",
@@ -86,5 +89,6 @@
   },
   "devDependencies": {
     "redux-mock-store": "^1.5.3"
-  }
+  },
+  "gitHead": "d69aaace25fe2e9c62bbf70a567d08d7158a30db"
 }

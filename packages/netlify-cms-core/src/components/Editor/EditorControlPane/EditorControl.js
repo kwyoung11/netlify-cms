@@ -130,7 +130,6 @@ class EditorControl extends React.Component {
       collection,
       config,
       field,
-      entry,
       fieldsMetaData,
       fieldsErrors,
       mediaPaths,

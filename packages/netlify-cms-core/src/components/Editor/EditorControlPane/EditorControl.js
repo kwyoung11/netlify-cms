@@ -130,6 +130,7 @@ class EditorControl extends React.Component {
       collection,
       config,
       field,
+      entry,
       fieldsMetaData,
       fieldsErrors,
       mediaPaths,
@@ -226,6 +227,7 @@ class EditorControl extends React.Component {
               field={field}
               uniqueFieldId={this.uniqueFieldId}
               value={value}
+              entry={entry}
               mediaPaths={mediaPaths}
               metadata={metadata}
               onChange={(newValue, newMetadata) => onChange(fieldName, newValue, newMetadata)}

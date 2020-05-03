@@ -45,7 +45,7 @@
     "publish:before-manual-version": "run-s publish:prepare publish:version",
     "publish:after-manual-version": "run-s build publish:push",
     "publish:prepare": "run-s bootstrap test",
-    "publish:version": "lerna version --no-push",
+    "publish:version": "lerna version",
     "publish:push": "run-s publish:push-git publish:from-git",
     "publish:push-git": "git push --follow-tags",
     "publish:push-git:ci": "git push \"https://$GITHUB_ACTOR:$PUSH_TOKEN@github.com/$GITHUB_REPOSITORY.git\" --follow-tags",

@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.8.5](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-backend-gitlab/compare/netlify-cms-backend-gitlab@2.8.3...netlify-cms-backend-gitlab@2.8.5) (2020-05-03)
+
+**Note:** Version bump only for package netlify-cms-backend-gitlab
+
+
+
+
+
 ## [2.8.4](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-backend-gitlab/compare/netlify-cms-backend-gitlab@2.8.3...netlify-cms-backend-gitlab@2.8.4) (2020-04-21)
 
 **Note:** Version bump only for package netlify-cms-backend-gitlab

@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.26.0](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-core/compare/netlify-cms-core@2.24.1...netlify-cms-core@2.26.0) (2020-05-03)
+
+
+### Bug Fixes
+
+* sidebar icon shrinking when label wraps ([#3653](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-core/issues/3653)) ([a9d0699](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-core/commit/a9d0699a82a25d79dd99af4f1ed9643ce7bba220))
+* support common backend configuration options from docs in ts types ([#3674](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-core/issues/3674)) ([2580251](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-core/commit/25802512087854e23333837d48a284832d9d50b2))
+* **sort:** don't clear sort data on entries request ([#3648](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-core/issues/3648)) ([cf57284](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-core/commit/cf57284f40141712e3265992bdf6966a5c81f838))
+* **types:** instead of the inferred {}, allow any kind of props ([#3638](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-core/issues/3638)) ([3f72f43](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-core/commit/3f72f438a1e2ad1111780208af69bf172becd277))
+* enable merge option for yaml parser ([#3577](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-core/issues/3577)) ([b8eeab2](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-core/commit/b8eeab2e35a51cb8128d2a0df23d8ecd489208cd))
+* redirect to default path after login success if url has prev error ([#3599](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-core/issues/3599)) ([bb0a7e9](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-core/commit/bb0a7e96d82d950735eafce3017460caf0fd6d0c))
+* **type-defs:**  add string type to EditorComponentData id property ([#3602](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-core/issues/3602)) ([1a60e6d](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-core/commit/1a60e6d7fde3c282df23487cd1f7479b0b848873))
+* add missing generic type to registerPreviewTemplate ([#3597](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-core/issues/3597)) ([36ae69c](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-core/commit/36ae69c96eded5f4af4a9bd63e319f64b62b0e63))
+* unify the title used in entry cards and workflow cards ([#3573](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-core/issues/3573)) ([#3575](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-core/issues/3575)) ([625a998](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-core/commit/625a9980f1c113cb8e5159e42bfddfe94a0d6188))
+
+
+### Features
+
+* adds ability to specify alternate options for select widget ([d4ceed7](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-core/commit/d4ceed79bf2a5c42b521357d0e4dfed1193fce2f))
+* **widget-relation:** string templates support ([#3659](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-core/issues/3659)) ([213ae86](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-core/commit/213ae86b54d02f5fc79fe11113507587ed062ff2))
+* add entry, collection and config prop to control widget ([#3672](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-core/issues/3672)) ([3e5ff71](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-core/commit/3e5ff7184604fd1f18a01c7223d0dc5d199f0eac))
+* add hide property to collections ([#3618](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-core/issues/3618)) ([#3643](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-core/issues/3643)) ([88b6c63](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-core/commit/88b6c633afb4ba50fe46c0fef753bd209f832e67))
+* add-download-button closes [#3429](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-core/issues/3429) ([#3609](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-core/issues/3609)) ([cf25260](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-core/commit/cf252605ad8fee6f3d307302dc50759813ee765c))
+
+
+
+
+
 # [2.25.0](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-core/compare/netlify-cms-core@2.24.4...netlify-cms-core@2.25.0) (2020-04-20)
 
 

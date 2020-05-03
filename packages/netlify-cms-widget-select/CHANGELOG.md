@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.6.0](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-select/compare/netlify-cms-widget-select@2.5.1...netlify-cms-widget-select@2.6.0) (2020-05-03)
+
+
+### Features
+
+* adds ability to specify alternate options for select widget ([d4ceed7](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-select/commit/d4ceed79bf2a5c42b521357d0e4dfed1193fce2f))
+
+
+
+
+
 ## [2.5.1](https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-widget-select/compare/netlify-cms-widget-select@2.5.0...netlify-cms-widget-select@2.5.1) (2020-02-06)
 
 

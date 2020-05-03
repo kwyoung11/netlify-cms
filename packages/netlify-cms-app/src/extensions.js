@@ -1,5 +1,5 @@
 // Core
-import { NetlifyCmsCore as CMS } from 'netlify-cms-core';
+import { NetlifyCmsCore as CMS } from '@kyoung18/netlify-cms-core';
 
 // Backends
 import { GitHubBackend } from 'netlify-cms-backend-github';
@@ -15,7 +15,7 @@ import NetlifyCmsWidgetNumber from 'netlify-cms-widget-number';
 import NetlifyCmsWidgetText from 'netlify-cms-widget-text';
 import NetlifyCmsWidgetImage from 'netlify-cms-widget-image';
 import NetlifyCmsWidgetFile from 'netlify-cms-widget-file';
-import NetlifyCmsWidgetSelect from 'netlify-cms-widget-select';
+import NetlifyCmsWidgetSelect from '@kyoung18/netlify-cms-widget-select';
 import NetlifyCmsWidgetMarkdown from 'netlify-cms-widget-markdown';
 import NetlifyCmsWidgetList from 'netlify-cms-widget-list';
 import NetlifyCmsWidgetObject from 'netlify-cms-widget-object';

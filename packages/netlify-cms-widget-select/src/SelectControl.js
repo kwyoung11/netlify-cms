@@ -111,18 +111,18 @@ export default class SelectControl extends React.Component {
     }
   }
 
-  getFieldOptions = (options) => {
+  getFieldOptions = options => {
     const secondaryOptions = this.props.field.get('secondaryOptions');
     secondaryOptions?.forEach(p => {
       const fieldValue = this.props.entry.getIn(['data', p.get('fieldName')]);
       const comparisonValue = p.get('value');
       if (!!fieldValue && !List.isList(fieldValue)) {
         const operators = {
-          'eq': (a, b) => a === b,
-          'lt': (a , b) => a < b,
-          'lteq': (a , b) => a <= b,
-          'gt': (a, b) => a > b,
-          'gteq': (a, b) => a >= b,
+          eq: (a, b) => a === b,
+          lt: (a, b) => a < b,
+          lteq: (a, b) => a <= b,
+          gt: (a, b) => a > b,
+          gteq: (a, b) => a >= b,
         };
 
         if (operators[p.get('op')](fieldValue, comparisonValue)) {

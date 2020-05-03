@@ -111,9 +111,31 @@ export default class SelectControl extends React.Component {
     }
   }
 
+  getFieldOptions = (options) => {
+    const secondaryOptions = this.props.field.get('secondaryOptions');
+    secondaryOptions?.forEach(p => {
+      const fieldValue = this.props.entry.getIn(['data', p.get('fieldName')]);
+      const comparisonValue = p.get('value');
+      if (!!fieldValue && !List.isList(fieldValue)) {
+        const operators = {
+          'eq': (a, b) => a === b,
+          'lt': (a , b) => a < b,
+          'lteq': (a , b) => a <= b,
+          'gt': (a, b) => a > b,
+          'gteq': (a, b) => a >= b,
+        };
+
+        if (operators[p.get('op')](fieldValue, comparisonValue)) {
+          options = p.get('options');
+        }
+      }
+    });
+    return options;
+  };
+
   render() {
     const { field, value, forID, classNameWrapper, setActiveStyle, setInactiveStyle } = this.props;
-    const fieldOptions = field.get('options');
+    const fieldOptions = this.getFieldOptions(field.get('options'));
     const isMultiple = field.get('multiple', false);
     const isClearable = !field.get('required', true) || isMultiple;
 
